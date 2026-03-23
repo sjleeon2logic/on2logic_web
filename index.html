@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On2Logic | Advancing System Semiconductors</title>
+    <!-- Modern Typography: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Elements for Deep Tech Vibe -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" style="text-decoration: none;">
+                <img src="assets/온투로직-로고원본화일.avif" alt="On2Logic Logo" class="logo-img">
+            </a>
+            <nav class="nav-links">
+                <a href="#about">Company</a>
+                <a href="#business">Business</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav">
+        <a href="#about" class="mobile-link">Company</a>
+        <a href="#business" class="mobile-link">Business</a>
+        <a href="#contact" class="mobile-link">Contact Us</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero reveal-on-scroll">
+        <div class="container hero-content">
+            <h1 class="hero-title">Advancing<br>System Semiconductors<br><span class="text-gradient">with
+                    On2Logic</span></h1>
+            <p class="hero-subtitle">Specialized SoC design company based on the Level-0 business model. We provide
+                fast, high-quality chip design flows with mass-production-verified IPs.</p>
+            <div class="hero-actions">
+                <a href="#about" class="btn btn-primary">Our Story</a>
+                <a href="#business" class="btn btn-primary">Explore Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding reveal-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">About On2Logic</h2>
+                <div class="title-line" style="margin: 0 auto;"></div>
+            </div>
+
+            <div class="about-grid" style="margin-bottom: 5rem;">
+                <div class="glass-card about-card about-main" style="display: flex; flex-direction: column;">
+                    <i class="ph ph-buildings card-icon icon-cyan"></i>
+                    <h3>ABOUT US</h3>
+                    <p>On2Logic is a specialized SoC design company based on the Level-0 business model. We possess
+                        in-house tools based on System Verilog, providing a fast and high-quality chip design flow. With
+                        numerous mass-production-verified IPs, we realize true Level-0 SoC design and production beyond
+                        mere integration. Additionally, by applying IST (In-System Test) technology to SoC, we
+                        specialize in SoC design required for MCU, automotive, and aerospace fields. On2Logic aims to
+                        grow beyond being the best in Korea to becoming the global No.1 Level-0 company.</p>
+                    <div
+                        style="margin-top: 2rem; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); flex-grow: 1; display: flex;">
+                        <img src="assets/about_us_soc.png" alt="High-tech SoC Design Process"
+                            style="width: 100%; height: 100%; object-fit: cover; opacity: 0.9;">
+                    </div>
+                </div>
+
+                <div class="glass-card about-card">
+                    <i class="ph ph-users-three card-icon icon-blue"></i>
+                    <h3>Expert</h3>
+                    <p>On2Logic is composed of experts from the SoC Industry. Leveraging our strong network with the SoC
+                        Industry and in-depth understanding of its systems, we provide exceptional SoC design solutions.
+                    </p>
+                </div>
+
+                <div class="glass-card about-card highlight-card glow-on-hover" style="cursor: pointer;"
+                    onclick="openModal('modal-dips')">
+                    <div class="highlight-content">
+                        <span class="highlight-badge">DIPS 1000+ 2024</span>
+                        <h3>Ministry of SMEs Recognized</h3>
+                        <p>Recognized for outstanding design capabilities, clear vision, and future growth potential by
+                            being selected for the 2024 DIPS 1000+ designation. This will enable On2Logic to continue
+                            driving innovation and growth.</p>
+                        <span class="read-more" style="margin-top: 1rem;">View Certificate &rarr;</span>
+
+                        <!-- Hidden Modal Content -->
+                        <div id="modal-dips" class="modal-content-data" style="display: none;">
+                            <div
+                                style="display: flex; flex-direction: column; gap: 2rem; align-items: center; margin-top: 2rem;">
+                                <img src="assets/현판1_edited.avif" alt="DIPS 1000+ Sign 1"
+                                    style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                                <img src="assets/현판2_edited.avif" alt="DIPS 1000+ Sign 2"
+                                    style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Areas -->
+    <section id="business" class="business section-padding reveal-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Core Business Areas</h2>
+                <p class="section-desc">Comprehensive semiconductor solutions across the entire design lifecycle. Click
+                    each card to learn more.</p>
+            </div>
+
+            <div class="business-grid">
+                <!-- SoC Design Card -->
+                <div class="glass-card business-card glow-on-hover" onclick="openModal('modal-soc')">
+                    <div class="card-icon-wrapper">
+                        <i class="ph ph-circuitry"></i>
+                    </div>
+                    <h3>SoC Design</h3>
+                    <p>Comprehensive design architecture from concept to tape-out with rigorous verification processes.
+                    </p>
+                    <span class="read-more">Learn more &rarr;</span>
+
+                    <!-- Hidden Modal Content -->
+                    <div id="modal-soc" class="modal-content-data" style="display: none;">
+                        <h2 class="modal-title">SoC Design Service</h2>
+                        <p class="modal-desc">On2Logic specialize in RTL design as an SoC design company, focusing on
+                            high-performance and low-power chip designs. We provide customized SoC solutions to maximize
+                            product performance and offer turnkey services to reduce process complexity and enhance
+                            project efficiency and speed.</p>
+                        <div class="modal-grid">
+                            <div class="modal-grid-item">
+                                <h4>IDEA to RTL</h4>
+                                <ul>
+                                    <li>Specification Define with Customer</li>
+                                    <li>System Architecture Design</li>
+                                    <li>User IP Design</li>
+                                    <li>Low Power / High Performance Design</li>
+                                </ul>
+                            </div>
+                            <div class="modal-grid-item">
+                                <h4>Design Verification</h4>
+                                <ul>
+                                    <li>System Level Verification</li>
+                                    <li>Evaluation Board Design Support</li>
+                                    <li>Power / Performance Estimation</li>
+                                    <li>Firmware for System / IP verification</li>
+                                </ul>
+                            </div>
+                            <div class="modal-grid-item">
+                                <h4>FPGA / ASIC</h4>
+                                <ul>
+                                    <li>FPGA Prototype Implementation</li>
+                                    <li>HW Level Verification</li>
+                                    <li>IP Performance Evaluation</li>
+                                    <li>Implementation with ASIC Library</li>
+                                </ul>
+                            </div>
+                            <div class="modal-grid-item">
+                                <h4>Turnkey Service</h4>
+                                <ul>
+                                    <li>Back-end Design Service (PI/PD/PV)</li>
+                                    <li>Foundry</li>
+                                    <li>OSAT</li>
+                                    <li>SCM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platform Card -->
+                <div class="glass-card business-card glow-on-hover" onclick="openModal('modal-platform')">
+                    <div class="card-icon-wrapper">
+                        <i class="ph ph-faders"></i>
+                    </div>
+                    <h3>Platform</h3>
+                    <p>Optimized integration platforms and environment setups for high-performance processing systems.
+                    </p>
+                    <span class="read-more">Learn more &rarr;</span>
+
+                    <!-- Hidden Modal Content -->
+                    <div id="modal-platform" class="modal-content-data" style="display: none;">
+                        <h2 class="modal-title">Platform Service</h2>
+                        <p class="modal-desc">Our platform services streamline design integration and accelerate
+                            time-to-market through rapid prototyping. We offer flexible scalability and real-time
+                            collaboration to enhance project efficiency, while maximizing design quality with
+                            high-quality IP libraries and automation tools.</p>
+                        <div class="modal-grid">
+                            <div class="modal-grid-item">
+                                <h4>CPU Subsystem</h4>
+                                <ul>
+                                    <li>ARM Cortex M, R, A Series / RISC-V</li>
+                                    <li>System / Bus Architecture Design</li>
+                                    <li>IP Subsystem Design</li>
+                                    <li>System Integration</li>
+                                    <li>Power / Clock Gating</li>
+                                </ul>
+                            </div>
+                            <div class="modal-grid-item">
+                                <h4>HW+SW Development</h4>
+                                <ul>
+                                    <li>Test Firmware suite</li>
+                                    <li>IP Device Driver</li>
+                                    <li>OS Porting</li>
+                                    <li>BSP / SDK Design</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DFT Card -->
+                <div class="glass-card business-card glow-on-hover" onclick="openModal('modal-dft')">
+                    <div class="card-icon-wrapper">
+                        <i class="ph ph-shield-check"></i>
+                    </div>
+                    <h3>DFT (Design For Test)</h3>
+                    <p>Advanced IST (In-System Test) methodologies ensuring high yield and fault coverage for critical
+                        industries.</p>
+                    <span class="read-more">Learn more &rarr;</span>
+
+                    <!-- Hidden Modal Content -->
+                    <div id="modal-dft" class="modal-content-data" style="display: none;">
+                        <h2 class="modal-title">DFT Service</h2>
+                        <p class="modal-desc">On2logic provides SoC design services that not only incorporate
+                            traditional DFT (Design for Test) techniques but also IST (In-System Test) technologies
+                            applicable to high-reliability fields such as automotive and aerospace. These advanced
+                            methodologies enable us to meet specific customer requirements and deliver highly reliable
+                            products.</p>
+                        <div class="modal-grid">
+                            <div class="modal-grid-item w-full">
+                                <h4>Automotive SoC Platform with IST</h4>
+                                <p><strong>In-System Test (IST)</strong> refers to tests performed on semiconductors
+                                    while they are embedded in the final system.</p>
+                                <p>Essential technology required for autonomous driving ADAS Chips.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section id="strengths" class="strengths section-padding reveal-on-scroll" style="padding-top: 1rem;">
+        <div class="container">
+            <div class="strengths-wrapper glass-card">
+                <h2 class="section-title">Why On2Logic</h2>
+
+                <div class="strengths-list">
+                    <div class="strength-item">
+                        <span class="strength-number">01</span>
+                        <div class="strength-text">
+                            <h4>Strong Network</h4>
+                            <p>Deep connections and partnerships across the global SoC Industry ecosystem.</p>
+                        </div>
+                    </div>
+
+                    <div class="strength-item">
+                        <span class="strength-number">02</span>
+                        <div class="strength-text">
+                            <h4>Deep Understanding</h4>
+                            <p>Profound expertise in complex SoC system architectures and their applications.</p>
+                        </div>
+                    </div>
+
+                    <div class="strength-item">
+                        <span class="strength-number">03</span>
+                        <div class="strength-text">
+                            <h4>Exceptional Service</h4>
+                            <p>A team of industry experts delivering uncompromised quality and support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <p class="company-name" style="margin-top: 0; font-size: 1.2rem; font-weight: 600;">㈜온투로직 ( On2Logic
+                    Co., Ltd. )
+                </p>
+                <div class="footer-contact">
+                    <p><i class="ph ph-phone"></i> <a href="tel:+823180395800"
+                            style="color: inherit; text-decoration: none; transition: color 0.3s;"
+                            onmouseover="this.style.color='#00e1ff'"
+                            onmouseout="this.style.color='inherit'">+82-31-8039-5800</a></p>
+                    <p><i class="ph ph-envelope-simple"></i> <a href="mailto:info@on2logic.com"
+                            style="color: inherit; text-decoration: none; transition: color 0.3s;"
+                            onmouseover="this.style.color='#00e1ff'"
+                            onmouseout="this.style.color='inherit'">info@on2logic.com</a>
+                    </p>
+                    <p><i class="ph ph-map-pin"></i> <a
+                            href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC%20%ED%99%A9%EC%83%88%EC%9A%B8%EB%A1%9C%20360%EB%B2%88%EA%B8%B8%2019"
+                            target="_blank" rel="noopener noreferrer"
+                            style="color: inherit; text-decoration: none; transition: color 0.3s;"
+                            onmouseover="this.style.color='#00e1ff'" onmouseout="this.style.color='inherit'">3F 19,
+                            Hwangsaeul-ro 360beon-gil,<br>Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 On2Logic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Container -->
+    <div id="info-modal" class="modal-overlay">
+        <div class="modal-container glass-card">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="ph ph-x"></i>
+            </button>
+            <div id="modal-content-area">
+                <!-- Content will be injected here via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top">
+        <i class="ph ph-caret-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
